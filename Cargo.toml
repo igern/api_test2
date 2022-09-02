@@ -1,0 +1,20 @@
+[package]
+edition = "2021"
+name = "api_test2"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-http = "3.2.1"
+actix-web = "4"
+actix-web-validator = "5.0.1"
+argon2 = {version = "0.4.1", features = ["std"]}
+dotenv = "0.15.0"
+lazy_static = "1.4.0"
+mongodb = "2.3.0"
+rand_core = {version = "0.6", features = ["std"]}
+serde = {version = "1.0", features = ["derive"]}
+serde_json = "1.0.85"
+thiserror = "1.0.32"
+validator = {version = "0.16", features = ["derive"]}
